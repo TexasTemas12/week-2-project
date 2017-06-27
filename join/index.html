@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Join</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
+  </head>
+  <body id="join">
+    <header>
+
+      <div class="film-club-corner">
+        <img src="../images/filmclub.png" id="corner-logo" />
+      </div>
+
+      <nav id="top-nav">
+        <a class="navlink" href="../index.html" id="navlink-home">Home</a>
+        <a class="navlink" id="navlink-calendar" href="../calendar/index.html">Calendar</a>
+        <a class="navlink" id="navlink-join" href="../join/index.html">Join</a>
+      </nav>
+
+      <div id="filler">
+
+      </div>
+
+    </header>
+    <section id="join-film">
+      <h1>Join Film Club</h1>
+      <span>profile picture</span>
+      <form>
+        <fieldset>
+          <div class="profile-picture">
+            <label for="file">profile picture</label>
+            <input type="file" id="file" />
+            <img src="../images/profile-placeholder.png" id="profile-pic" />
+          </div>
+
+          <div class="personal-info">
+            <label for="name">name</label>
+            <input type="text" id="name">
+            <label for="email">email address</label>
+            <input type="email" id="email">
+            <label for="password">password</label>
+            <input type="password" id="password">
+            <label for="confirm">confirm password</label>
+            <input type="password" id="confirm">
+          </div>
+
+          </fieldset>
+          <fieldset>
+          <div id="categoryboxes">
+
+
+          <legend>
+            What genres are you interested in?
+          </legend>
+          <label>
+            <input type="checkbox" id="checkboxes" value="category" />
+            Action
+          </label>
+          <label class="no-medium">
+            <input type="checkbox" id="checkboxes" class="no-medium" value="category" />
+            Adventure
+          </label>
+          <label class="no-large">
+            <input type="checkbox" id="checkboxes" value="category" class="no-large" />
+            Comedy
+          </label>
+          <label class="no-medium">
+            <input type="checkbox" id="checkboxes" value="category" class="no-medium" />
+            Drama
+          </label>
+          <label "no-large">
+            <input type="checkbox" id="checkboxes" value="category" lass="no-large" />
+            Fantasy
+          </label>
+          <label class="no-medium">
+            <input type="checkbox" id="checkboxes" class="no-medium" value="category" />
+            Historical
+          </label>
+          <label>
+            <input type="checkbox" id="checkboxes" value="category" />
+            Horror
+          </label>
+          <label class="no-medium">
+            <input type="checkbox" class="no-medium" id="checkboxes" value="category" />
+            Mystery
+          </label>
+          <label class="no-large">
+            <input type="checkbox" id="checkboxes" value="category" class="no-large" />
+            Romance
+          </label>
+          <label class="no-medium">
+            <input type="checkbox" id="checkboxes" value="category" class="no-medium" />
+            Science Fiction
+          </label>
+          <label class="no-large">
+            <input type="checkbox" id="checkboxes" value="category" class="no-large" />
+            Western
+          </label>
+          </div>
+        <div id="input-wrapper">
+
+
+          <label for="additional-input">Additional Input</label>
+          <textarea id="additional-input" name="additional-input"></textarea>
+          <button type="submit" value="submit" id="join-button">Join Film Club</button>
+          </div>
+        </fieldset>
+      </form>
+    </section>
+
+    <footer id="small-bottom-nav">
+      <nav id="small_bottom_footer">
+        <a class="navlink_home_small" href="./index.html" id="navlink-home">Home</a>
+        <a class="navlink_home_small" id="navlink-calendar" href="./about/index.html">Calendar</a>
+        <a class="navlink_home_small" id="navlink-join" href="./join/index.html">Join</a>
+
+
+      </nav>
+
+      <a id="nav-copyright" href="./join/index.html">2017, Film Club</a>
+    </footer>
+  </body>
+</html>
