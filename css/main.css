@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+
+}
+
+
+
+img {
+  max-width: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'PT Sans', sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-basis: 85%;
+  text-align: center;
+}
+
+a.navlink {
+  color: white;
+  flex-basis: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+
+}
+
+#navlink-home {
+  background-color: #00A5BF;
+}
+
+#navlink-calendar {
+  background-color: #00B7D3;
+}
+
+#navlink-join {
+  background-color: #00D5E7;
+}
+#corner-logo {
+  height: 100%;
+  width: 100%;
+  padding: 1em;
+}
+
+.film-club-corner {
+  background-color: #F5005B;
+}
+
+.in-blue {
+  background-color: #0B1942;
+  color: white;
+  padding-left: .75em;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+section.get-involved {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+section.up-next {
+  background-color: #0B1942;
+  margin: 0em;
+  padding: 0em;
+}
+
+#up-next-header {
+  text-decoration: none;
+  font-size: 32pt;
+  color: white;
+  font-weight: normal;
+  padding-left: 1em;
+  display: flex;
+  align-content: center;
+  padding-top: 1em;
+
+}
+
+.rasho-box{
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+#rashomon-poster {
+  flex-basis: 40%;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding: 1em;
+  height: 20%;
+  flex-shrink: 1;
+}
+
+.rasho-right {
+  flex-basis: 60%;
+}
+
+.rasho-link {
+  margin-bottom: 0;
+}
+
+rasho-right  {
+  margin-top: 0em;
+  flex-shrink: 1;
+}
+
+.film-date-rasho {
+  margin-top: .25em;
+}
+
+li {
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+
+#movie-box {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.first-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.second-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.movie-poster-quarter {
+  padding: .5em;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 20%;
+}
+
+a.navlink_home_small {
+  color: white;
+  flex-basis: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+
+}
